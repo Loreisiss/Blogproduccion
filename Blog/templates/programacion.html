@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block titulo%}Programacion{% endblock titulo%}
+
+<h1>{% block tituloprincipal %}Programacion{% endblock tituloprincipal%}</h1>
+<span class="subheading">{% block sub %}codigo.py{% endblock sub%}</span>
+{% block imagen %}{% static 'img/general.jpg' %}{% endblock imagen %}

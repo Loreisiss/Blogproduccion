@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block titulo%}Generales{% endblock titulo%}
+
+<h1>{% block tituloprincipal %}Generales{% endblock tituloprincipal%}</h1>
+<span class="subheading">{% block sub %}codigo.py{% endblock sub%}</span>
+{% block imagen %}{% static 'img/general.jpg' %}{% endblock imagen %}
+{% block Busqueda%}
+<!-- Barra e Busqueda -->
+<div class="container">
+ <div class="row">
+   <div class="col-md-12 search">
+     <form method="get">
+       <div id='custom-search-input'>
+         <div class="input-group col-md-12">
+           
+           <input type="text" class="form-control" placeholder="Buscar..." name="buscar" value="{{ request.get.buscar }}"
+           <span class="input-group-list">
+             <i class="icon icon-search"></i>
+             <button type="sumit" class="boton btn-success">Buscar</button>
+
+           </span>
+         </div>
+       </div>
+     </form>
+
+   </div>
+ </div>
+
+</div>
+{% endblock Busqueda %}
