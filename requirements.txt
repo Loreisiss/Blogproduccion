@@ -12,7 +12,7 @@ django-import-export==2.3.0
 django-js-asset==1.2.2
 et-xmlfile==1.0.1
 filelock==3.0.12
-get
+get==2019.4.13
 gunicorn==20.0.4
 isort==4.3.21
 jdcal==1.4.1
@@ -26,7 +26,7 @@ odfpy==1.4.1
 openpyxl==3.0.5
 pandas==1.0.3
 Pillow==7.2.0
-post
+post==2019.4.13
 psycopg2==2.8.6
 public==2019.4.13
 pylint==2.5.3
@@ -37,7 +37,7 @@ python-dateutil==2.8.1
 pytz==2019.3
 PyYAML==5.3.1
 query-string==2019.4.13
-request
+request==2019.4.13
 scipy==1.4.1
 six==1.14.0
 sqlparse==0.3.1
